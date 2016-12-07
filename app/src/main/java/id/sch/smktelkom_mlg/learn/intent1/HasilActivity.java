@@ -31,7 +31,7 @@ public class HasilActivity extends AppCompatActivity {
             int tahunLahir = yearNow - umur;
 
             TextView tvHasil = (TextView) findViewById(R.id.textViewHasil);
-            tvHasil.setText(nama + " lahir pada tahun " + tahunLahir);
+            tvHasil.setText(nama + " lahir pada tahun" + tahunLahir);
 
             setTitle("Hasil");
         }
